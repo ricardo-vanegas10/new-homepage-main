@@ -1,0 +1,86 @@
+/* body{
+    font-family: 'Inter', sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.offcanvas-body ul li a:hover{
+    color:#F15D51;
+}
+
+.future h1{
+    color: rgb(0, 0, 26);
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.future button{
+    padding: 0.6rem 1.8rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    background-color: #F15D51;
+    color: white;
+    border: none;
+}
+
+.future button:hover{
+    background-color: #00011A;
+    cursor: pointer;
+}
+
+
+.aside{
+    background-color: #00011A;
+}
+
+.aside h1{
+    color: #E4A74D;
+}
+
+.aside p{
+    font-size: 1rem;
+}
+
+.aside a{
+    text-decoration: none;
+    color: white;
+}
+
+.aside a:hover{
+    color: #E4A74D;
+    cursor: pointer;
+}
+
+.footer img{
+    width: 6rem;
+}
+
+.contains{
+    max-width: min-content;
+    justify-content: center;
+}
+
+h3{
+    color:  hsl(233, 8%, 79%);
+}
+
+h5 a{
+    text-decoration: none;
+    color: rgb(0, 0, 26);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+h5 a:hover{
+    color: #F15D51;
+}
+
+.footer p{
+    font-size: 13px;
+}
